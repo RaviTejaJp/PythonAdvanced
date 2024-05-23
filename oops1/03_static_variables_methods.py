@@ -1,3 +1,12 @@
+""" 
+When to use: Often we work in class and we need some generic function that 
+should do something trivial and it has nothing to do with instance or class
+
+example: json structure modification, some calculation, some conversions, file creations, etc
+
+"""
+
+
 class Office:
     Industry = "Technology"
 
