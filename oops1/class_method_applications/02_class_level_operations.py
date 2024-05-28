@@ -11,6 +11,9 @@ class Car:
 
 
 print(f"cars made till now - {Car.car_made_count()}")
-Car("Punch")
-Car("Nexon")
+punch = Car("Punch")
+obj = Car("Nexon")
+obj.car_count = 10
 print(f"cars made till now - {Car.car_made_count()}")
+print(obj.car_count)
+print(punch.car_count)
