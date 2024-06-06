@@ -1,0 +1,159 @@
+# Django-specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+__pycache__/
+db.sqlite3
+local_settings.py
+
+# If you are using Django's default setup with a SQLite database
+*.sqlite3
+
+# PyCharm project files
+.idea/
+
+# VSCode project files
+.vscode/
+
+# Python bytecode
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+wheels/
+
+# Distribution / packaging
+.Python
+*.egg
+*.egg-info/
+.installed.cfg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environments
+.env
+.venv
+ENV/
+env/
+venv/
+ENV.bak/
+venv.bak/
+
+# My Environments
+.idea/
+*.iml
+.mypy_cache/
+.pytest_cache/
+__pycache__/
+
+# Ignore IDE-specific files
+# PyCharm
+.idea/
+*.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Celery task queue
+celerybeat-schedule
+
+# Sentry DSN
+.sentry
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Static and media files
+/staticfiles/
+/media/
+
+# Log files
+*.log
+
+# Local settings
+local_settings.py
+
+# pipenv
+Pipfile.lock
+
+# Docker
+*.log
+*.pid
+*.seed
+*.pid.lock
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache
+coverage.xml
+*,cover
+.hypothesis/
+*.mo
+*.pot
+*.pyc
+*.pyo
+local_settings.py
+env.bak/
+env/
+venv.bak/
+venv/
+*.bak
+*.old
+*.swp
+*.swo
+*.swn
+*.tar
+*.tar.gz
+*.gz
+*.zip
+*.dist-info/
